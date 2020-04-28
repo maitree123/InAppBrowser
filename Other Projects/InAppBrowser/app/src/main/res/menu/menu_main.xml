@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.inappbrowser.MainActivity">
+    <item
+        android:id="@+id/back_browse"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/left"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/new_browse"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/new_browse"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_bookmark"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/bookmark_board"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/list_browse"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/bookmark_collection"
+        app:showAsAction="always" />
+
+
+</menu>
